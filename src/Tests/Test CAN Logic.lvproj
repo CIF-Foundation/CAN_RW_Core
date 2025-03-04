@@ -2,6 +2,7 @@
 <Project Type="Project" LVVersion="21008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -12,17 +13,15 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Test Filter.vi" Type="VI" URL="../Test Filter.vi"/>
-		<Item Name="Test tag Encode.vi" Type="VI" URL="../Test tag Encode.vi"/>
+		<Item Name="CAN_RW_CORE.lvclass" Type="LVClass" URL="../../CAN_RW_CORE.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="DataTypes_CIF_U.lvlib" Type="Library" URL="/&lt;vilib&gt;/CIF Foundation/CIF Utilities/DataTypes/DataTypes_CIF_U.lvlib"/>
+				<Item Name="Assert Error Cluster Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Error Cluster Type.vim"/>
+				<Item Name="Errors_CIF_U.lvlib" Type="Library" URL="/&lt;vilib&gt;/CIF Foundation/CIF Utilities/Errors/Errors_CIF_U.lvlib"/>
+				<Item Name="Time_CIF_U.lvlib" Type="Library" URL="/&lt;vilib&gt;/CIF Foundation/CIF Utilities/Time/Time_CIF_U.lvlib"/>
+				<Item Name="pcap_Parse_Build_CIF.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF PCAP Parse and Build/pcap_Parse_Build_CIF.lvclass"/>
 			</Item>
-			<Item Name="CAN_RW_CORE.lvclass" Type="LVClass" URL="../../CAN_RW_CORE.lvclass"/>
-			<Item Name="nixlvapi.dll" Type="Document" URL="nixlvapi.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="trash_Error Global.vi" Type="VI" URL="../../typedef/trash_Error Global.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
