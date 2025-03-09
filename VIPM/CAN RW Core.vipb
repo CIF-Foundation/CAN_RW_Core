@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-08 07:45:01" Modified_Date="2025-03-04 08:24:17" Creator="toddw" Comments="" ID="8bc77267f62d9e438420620111cfd81d">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-08 07:45:01" Modified_Date="2025-03-08 18:30:44" Creator="toddw" Comments="" ID="ae1ebf65fcaff6ef245d2ff02b04abf1">
   <Library_General_Settings>
     <Package_File_Name>CIF_Foundation_lib_CIF_CAN_RW_Core</Package_File_Name>
-    <Library_Version>1.2.0.3</Library_Version>
+    <Library_Version>1.2.1.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\..\builds\VIPM</Library_Output_Folder>
@@ -32,7 +32,7 @@
       <Copyright/>
       <Packager>DOME Automation</Packager>
       <URL/>
-      <Release_Notes>Update to support pcap format for CAN</Release_Notes>
+      <Release_Notes>Fixed link from pcap parse and build</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -245,7 +245,7 @@
         <Path>..\src\Utilities</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>48F5C37F486B11BC0407DFEDA38FA9C8</GUID>
+      <GUID>306C46B9EE73536B35A91A53E8839766</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -406,7 +406,7 @@
         <Path>..\src\Accessors\Write pcap class.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0037E571B457A91C8DE83752B271FA31</GUID>
+      <GUID>9A0678571E0C13B7C33A0A70832F75CA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -511,7 +511,7 @@
         <Path>..\src\Core\Stop.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CB556C95856CD5FB391B8CE05437DE60</GUID>
+      <GUID>B8F51D6623ABFBD65DCBF956EA2BD4D9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -546,7 +546,7 @@
         <Path>..\src\Utilities\Filter Packets.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7D3983DD35DCBE072D4061DFA1CEC827</GUID>
+      <GUID>B7793670C34FF7D1F084A82C0EA611CD</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
