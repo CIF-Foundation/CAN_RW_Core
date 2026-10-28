@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-08 07:45:01" Modified_Date="2026-10-02 19:36:10" Creator="toddw" Comments="" ID="b93899dda87d1adb09fde8ddf415947a">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-08 07:45:01" Modified_Date="2026-10-26 09:32:29" Creator="toddw" Comments="" ID="69924e39a319214aba035b733bb0ebca">
   <Library_General_Settings>
     <Package_File_Name>CIF_Foundation_lib_CIF_CAN_RW_Core</Package_File_Name>
-    <Library_Version>1.4.0.3</Library_Version>
+    <Library_Version>1.4.0.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\..\builds\VIPM</Library_Output_Folder>
@@ -32,7 +32,7 @@
       <Copyright/>
       <Packager>DOME Automation</Packager>
       <URL/>
-      <Release_Notes>Added configuration and metric for 1 shot TX</Release_Notes>
+      <Release_Notes>Updated license settings</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -245,7 +245,7 @@
         <Path>..\src\Utilities</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E6C67115B57DC31C00B4543B66E1F96B</GUID>
+      <GUID>6E87F07921F4ECCE6DE5C4A40238748B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -504,7 +504,7 @@
         <Path>..\src\Accessors\Write One Shot TX.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>88A06118AFDFD8BA18814508452DFEB8</GUID>
+      <GUID>A6AE079998E98978D3D1009AD43EBAAF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -609,7 +609,7 @@
         <Path>..\src\Core\Stop.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>10670469DC4C4E51D16D47BC06E88CEF</GUID>
+      <GUID>AEE1D1A031099061EE9EDB6AAEF847B2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -672,7 +672,7 @@
         <Path>..\src\Utilities\Update Stats.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D5B44168CE28F38B60AECCF76F1C9FB9</GUID>
+      <GUID>381F40E839C889FE33059EBC73D05E78</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
